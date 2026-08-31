@@ -473,7 +473,25 @@
     transform: scale(0.8); transform-origin: center 0;
   }
   /* home banner section css ended */
-
+  .gray-box-content{
+    flex-direction:column;
+  }
+  .illustration-wrap{
+    order:1;
+    width:100%;
+    max-width:100%;
+    align-self:center;
+    padding-left:0;
+  }
+  .illustration-wrap{
+    max-width:50%;
+    min-width:50%;
+  }
+  .gray-box-content-inner{
+    order:0;
+    width:100%;
+    max-width:100%;
+  }
 }
 @media (max-width:1025px){
   /* home growth section css start */
@@ -1403,6 +1421,20 @@
     justify-content: space-between;
   }
   /* Case study end */
+  .illustration-wrap{
+    padding-top:0;
+  }
+  .illustration-wrap{
+    max-width:70%;
+    min-width:70%;
+  }
+  .gray-box-content-inner{
+    padding:30px 20px;
+  }
+  .gray-box-content-inner h3{
+    font-size: 22px;
+    line-height:26px;
+  }
 }
 /* Only For Mobile View Close */
 
@@ -1567,6 +1599,11 @@
     height:370px; flex: auto;
   }
   /* home banner suffle card css ended */
+  .illustration-wrap{
+    max-width:100%;
+    min-width:100%;
+    padding:0 15px;
+  }
 }
 @media (max-width:409px) {
 
