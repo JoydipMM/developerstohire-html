@@ -418,7 +418,23 @@
     z-index: 1;
   }
   .mobile-toggle{
-    display:block; z-index:1;
+    display:block; z-index:1; position: relative;
+  }
+  .mobile-toggle img{
+    transition: all ease 0.4s;
+  }
+  .mobile-toggle:after,
+  .mobile-toggle:before{
+    content: ''; position: absolute; top: 51%; left: 50%; transform: translate(-50%, -50%); width: 28px; height: 2px; background: #767676; transition: all ease 0.4s;
+  }
+  .mobile-toggle.active:after{
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .mobile-toggle.active:before{
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  .mobile-toggle.active img{
+    opacity: 0;
   }
   .nav-menu{
     display: block; position: fixed; background: #fff; top: 0px; left: -110%; height: 100%; width:300px; transition: all ease 0.8s;
