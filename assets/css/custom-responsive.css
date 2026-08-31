@@ -26,22 +26,6 @@
   .solution-content h2 {
     font-size: 25px;
   }
-  .tab-item h3{
-    font-size: 30px;
-  }
-  .tab-item p {
-    font-size: 1.3rem;
-  }
-  .tab-item {
-    padding: 10px 0;
-  }
-  .tab-content {
-    height: auto;
-    margin-bottom: 20px;
-  }
-  .tab-content ul{
-    margin: 15px 0;
-  }
   .center-title {
     margin: 0 auto 30px;
   }
@@ -115,15 +99,6 @@
     min-height: 540px;
   }
   /* home outcome delivered section css ended */
-
-  /* home testimonial section css start */
-  .testimonial-item .quote{
-      font-size: 34px;
-  }
-  .testimonial-item .testimonial-content .description{
-      font-size: 16px;
-  }
-  /* home testimonial section css ended */
   .solution-card{
     padding:35px;
   }
@@ -199,68 +174,10 @@
   }
   /* home growth section css ended */
 
-  /* home testimonial section css start */
-  .testimonial-slider-wrapper{
-      padding: 40px 40px 20px 40px;
-  }
-  .testimonial-item .testimonial-content {
-      flex: 0 0 45%;
-      max-width: 45%;
-      row-gap: 18px;
-      padding-left: 30px;
-  }
-  .testimonial-item .quote {
-      font-size: 30px;
-  }
-  .testimonial-item .testimonial-content .description{
-      max-width: 93%;
-      font-size: 16px;
-  }
-  .testimonial-item .testimonial-visuals {
-      flex: 0 0 52%;
-      max-width: 52%;
-  }
-  .testimonial-item .rating-value,
-  .testimonial-item .stars {
-      font-size: 16px;
-      gap: 8px;
-  }
-  .testimonial-item .author-details {
-      gap: 7px;
-  }
-  .testimonial-item .author-img {
-      width: 80px;
-      height: 80px;
-  }
-  .testimonial-item .author-details h3 {
-      font-size: 20px;
-  }
-  .testimonial-item .clutch-logo-wrap > img {
-      height: 35px;
-  }
-  .testimonial-carousel .owl-nav button.owl-prev, .testimonial-carousel .owl-nav button.owl-next {
-      width: 45px;
-      height: 45px;
-  }
-  /* home testimonial section css ended */
   .filter-wrapper{
     max-width:100%;
   }
 
-  /* home service section modification css start */
-  .services-section.home-page .tab-item {
-    padding: 14px 0;
-  }
-  .services-section.home-page .tab-item.active p {
-    padding-right:10px;
-  }
-  .services-section.home-page .right-side {
-    min-height: 655px;
-  }
-  .services-section.home-page .right-side .tab-content ul li {
-    height: 110px; border-radius: 12px;
-  }
-  /* home service section modification css ended */
 }
 /* Large Desktop View Close */
 
@@ -292,11 +209,6 @@
   .home-banner .left { padding-right: 50px;}
   .center-core, .wave {width: 100px;  height: 100px; }
   /* banner end */
-  /* blog start */
-  .blog-row .blog-box .pic img { height: 220px;}
-  .blog-row .blog-box .blog-title { font-size: 20px;}
-  .blog-row .blog-box .blog-tag .item { font-size: 12px;}
-  /* blog end */
   /* form start */
   .form-content { max-width: 100%; margin: 0;}
   .form-content .right { padding: 25px;}
@@ -363,39 +275,6 @@
     min-height: auto;
   }
   /* Built for Every end */
-  /* home testimonial section css start */
-  .testimonial-item .rating-value, .testimonial-item .stars {
-      font-size: 16px;
-  }
-  .testimonial-item .quote {
-      font-size: 30px;
-  }
-  .testimonial-item .testimonial-content{
-    padding-left: 30px;
-  }
-  .testimonial-item .testimonial-content .description {
-      max-width: 95%;
-      font-size: 14px;
-  }
-  .testimonial-item .author-img {
-      width: 70px;
-      height: 70px;
-  }
-  .testimonial-item .author-details h3 {
-      font-size: 20px;
-  }
-  .testimonial-item .author-details p {
-      font-size: 14px;
-  }
-  .testimonial-item .clutch-logo-wrap > img {
-      height: 30px;
-  }
-  /* home testimonial section css ended */
-  /* Case Study Page */
-    .profile-grid{
-      grid-template-columns:repeat(2,1fr);
-    }
-  /* Case Study Page End */
 
   /* home service section modification css start */
   .services-section.home-page .right-side {
@@ -469,32 +348,6 @@
       width: 100%;
   }
   /* home growth section css ended */
-
-  /* testimonial section css start */
-  .testimonial-item .rating-value, .testimonial-item .stars {
-      font-size: 14px;
-  }
-  .testimonial-item .testimonial-content {
-      row-gap: 14px;
-  }
-  .testimonial-item .quote {
-      font-size: 20px;
-  }
-  .testimonial-item .testimonial-content .description {
-      font-size: 12px;
-  }
-  .testimonial-item .author-details h3 {
-      font-size: 16px;
-  }
-  .testimonial-item .author-img {
-      width: 68px;
-      height: 68px;
-  }
-  .testimonial-item .author-details p {
-      font-size: 12px;
-  }
-  /* testimonial section css ended */
-
 
 }
 /* Small Desktop View Close */
@@ -915,174 +768,6 @@
   .right-side {display: none;}
   .progress-wrap {display: none;}
   .sticky-content {position: relative;top: 0;}
-  /* ACCORDION ITEM */
-  .tab-item {
-    width: 100%;
-    opacity: 1;
-    overflow: hidden;
-    background: #fff;
-    padding: 10px 0;
-  }
-  .accordion-content li h4 {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-  }
-  /* HEADING */
-  .tab-title {
-    /* padding: 22px; */
-    cursor: pointer;
-    position: relative;
-  }
-  .tab-title h3 {
-    font-size: 26px;
-    padding-right: 40px;
-  }
-  .tab-item.activete .tab-title h3 {
-    color: var(--orange);
-  }
-  .tab-item.activete {
-    border-bottom: 1px solid #D9D9D9;
-  }
-  .tab-item .tab-title {
-    position: relative;
-  }
-  .tab-item .tab-title:after {
-    position: absolute;
-    content: "";
-    width: 35px;
-    height: 35px;
-    background: url(../icons/arrow-below.svg) 0 0 no-repeat;
-    top: 0px;
-    right: 0;
-  }
-  .tab-item.activete .tab-title:after {
-    background: url(../icons/arrow-below-hover.svg) 0 0 no-repeat;
-  }
-  .tab-item h3 {
-      color: #9F9F9F;
-  }
-  /* CONTENT */
-  .accordion-content {
-    display: none;
-    /* padding: 0 22px 25px; */
-  }
-  .accordion-content p {
-    display: block !important;
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #04043F;
-  }
-  .accordion-content img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 14px;
-    margin-bottom: 20px;
-  }
-  .accordion-content ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-  }
-  .accordion-content ul li {
-    width: calc(50% - 6px);
-    padding: 15px;
-    list-style: none;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .accordion-content ul li img {
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-  .left-side .tabs-wrapper{
-    border:none;
-  }
-  .left-side .tab-item.active{
-    border-bottom: 1px solid var(--light-gray);
-  }
-  .tab-item.active .tab-title:after{
-      transform: rotate(180deg);
-  }
-  /* Solutions Designed End */
-  /* Case study start */
-  .section-top {
-    flex-direction: column;
-  }
-  .case-item {
-    flex-wrap: wrap;
-    height: auto;
-  }
-  .case-image,
-  .case-content {
-    width: 100%;
-  }
-  .case-image {
-    min-height: 550px;
-  }
-  .desc {
-    font-size: 24px;
-  }
-  .stat-item h4 {
-    font-size: 30px;
-  }
-  .stat-item{
-    align-items: center;
-  }
-  /* Case study end */
-  /* Measurable Outcomes start */
-  .industry-section {
-    padding: 80px 0;
-  }
-  .industry-grid {
-    gap: 20px;
-  }
-  .industry-card,
-  .industry-card.wide,
-  .industry-card.extra-wide {
-    width: calc(50% - 10px);
-    min-width: auto;
-  }
-  /* Measurable Outcomes end */
-  .case-item {
-    margin: 0;
-    box-shadow: none;
-  }
-  /* .case-content {
-        padding: 40px 0 0 0;
-    } */
-  .case-item {
-    border-radius: 20px;
-  }
-  .case-mob {
-    display: block;
-    margin-top: 15px;
-    margin-top: -60px;
-  }
-  .lft-content,
-  .stats {
-    flex: none;
-  }
-  .desc {
-    margin-bottom: 0;
-  }
-  .case-study-section .owl-nav {
-    margin-top: 0;
-    position: absolute;
-    top: 25%;
-    width: 100%;
-    justify-content: space-between;
-    padding: 0 25px;
-  }
   .section-top .btn {
     display: none;
   }
@@ -1094,23 +779,10 @@
   .counter-wrapper {
     gap: 40px;
   }
-  .tab-item h3{
-    color: #9F9F9F;
-  }
   .stats{
     /* flex-direction: row; */
     margin-top: 30px;
   }
-  /* home testimonial css start */
-  .testimonial-item .testimonial-content {
-      margin-top: 0px;
-      flex: 0 0 51%;
-      max-width: 51%;
-  }
-  .testimonial-item .testimonial-visuals {
-    max-width: 44%;
-  }
-  /* home testimonial css ended */
   .industry-card span {
     font-size: 18px;
   }
@@ -1123,7 +795,6 @@
     min-height: 340px;
   }
   /* home outcome delivered section css ended */
-
 
   /* home growth section css start */
   .growth-timeline{
@@ -1150,28 +821,6 @@
   .growth-timeline-item .timeline-item-desc {
       max-width: 100%;
   }
-  /*.growth-timeline::before {
-      content: '';
-      position: absolute;
-      top: -6px;
-      left: 12px;
-      right: 0;
-      height: 1px;
-      transform: rotate(90deg);
-      transform-origin: 0 0;
-  }
-  .growth-timeline::after{
-      content: '';
-      position: absolute;
-      top: -6px;
-      left: 12px;
-      right: 0;
-      height: 1px;
-      transform: rotate(90deg);
-      transform-origin: 0 0;
-      transition-delay: 0s;
-      transition: width 1.8s ease-in-out;
-  }*/
   .growth-timeline{
       position: relative;
       --progress-height: 0px;
@@ -1268,23 +917,6 @@
   .left-side .tabs-wrapper::before, .left-side .tabs-wrapper::after{
     display:none;
   }
-  /** ABOUT PAGE START **/
-  .mission-card{
-    min-width:calc(50% - 12px);
-  }
-  .mission-card h3{
-      font-size:30px;
-  }
-  .about-growth-wrapper{
-    gap:50px;
-  }
-  .about-growth-wrapper{
-    flex-direction: column;
-  }
-  .about-growth-right, .about-growth-left{
-    width:100% !important;
-  }
-  /** ABOUT PAGE END **/ 
 }
 /* Tab and Mobile  View Close */
 
@@ -1420,12 +1052,6 @@
   .workflow .btn-row { flex-wrap: wrap; gap: 15px; justify-content: center;}
   /* .workflow-section .container { padding: 0;} */
   /* workflow end */
-  /* blog start */
-  .blog-row .blog-box { width: 100%; padding-bottom: 15px;}   
-  .blog-row .blog-box:nth-child(2) { display: none;}
-  .blog-row .blog-box .pic, .blog-row .blog-box .blog-tag { padding-bottom: 12px;}
-  .blog-row .blog-box .blog-title { font-size: 16px;}
-  /* blog end */
   /* Counter section start  */
   .counter-number {
     font-size:26px;
@@ -1448,94 +1074,7 @@
     line-height: normal;
   }
   /* Built for Every end */
-  /* Solutions Designed Start */
-  .accordion-content img {
-    height: 175px;
-  }
-  .accordion-content p {
-    font-size: 12px;
-  }
-  .services-section h2 {
-    line-height: 1.3;
-  }
-  .center-title {
-    margin-bottom: 30px;
-  }
-  .tab-item {
-    min-width: 220px;
-  }
-  .tab-item h3 {
-    font-size: 22px;
-  }
-  .tab-content img {
-    height: 260px;
-    border-radius: 14px;
-  }
-  .tab-content ul {
-    justify-content: center;
-  }
-  .tab-content ul li {
-    height: 100px;
-  }
-  .tab-content ul li h4 {
-    font-size: 13px;
-  }
-  /* Solutions Designed End */
-  /* Case study start */
-  .case-study-section {
-    padding: 50px 0 50px 0;
-  }
-  .case-image {
-    min-height: 400px;
-  }
-  .case-content {
-    padding: 30px 15px;
-  }
-  .case-content h3 {
-    margin-top: 0px;
-    margin-bottom: 15px;
-    font-size: 32px;
-  }
-  .stat-item p {
-    font-size: 15px;
-  }
-  .desc {
-    font-size: 20px;
-    margin-bottom: 40px;
-  }
-  .stat-item {
-    gap: 10px;
-  }
-  /* Case study end */
-  /* Measurable Outcomes start */
-  .industry-card,
-  .industry-card.wide,
-  .industry-card.extra-wide {
-    width: 100%;
-    justify-content: flex-start;
-    padding: 20px 24px;
-  }
-  .industry-card span {
-    font-size:14px;
-  }
-  .industry-card img {
-    width: 48px;
-    height: 48px;
-  }
-  .industry-grid {
-    gap: 10px;
-  }
-  .industry-card,
-  .industry-card.wide,
-  .industry-card.extra-wide {
-    padding: 8px;
-    width: 31%;
-    border-radius: 5px;
-  }
-  .case-study-section .heading-part {
-    text-align: center;
-  }
-  /* Measurable Outcomes end */
+  
   .section-top {
     margin-bottom: 25px;
   }
@@ -1546,101 +1085,9 @@
   .stat-item h4 img {
     display: none !important;
   }
-
-
-  /* home testimonial section css start */
-  .testimonial-slider-wrapper{
-      padding: 30px 20px 60px 20px;
-      background: url("../images/testimonial-mobile-bg.png") no-repeat center center;
-      background-size: cover;
-      border: none;
+  .header.active-header .logoSmall img{
+    max-width:40px;
   }
-  .testimonial-slider-section .container-fluid{
-    padding: 0px;
-  }
-  .testimonial-item {
-      flex-direction: column-reverse;
-  }
-  .testimonial-item .testimonial-content {
-    max-width: 100%;
-    flex: 0 0 100%;
-    padding-left: 0px;
-  }
-  .testimonial-item .testimonial-visuals {
-      flex: 0 0 100%;
-      max-width: 100%;
-      display: none;
-  }
-  .testimonial-item .testimonial-content .description{
-      max-width: 100%;
-  }
-  .testimonial-item .author-details {
-      gap: 5px;
-  }
-  .testimonial-carousel .owl-nav{
-      top:auto;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: -45px;
-      width: 80px;
-  }
-  .testimonial-carousel .owl-nav button.owl-prev, 
-  .testimonial-carousel .owl-nav button.owl-next{
-      width: 30px;
-      height: 30px;
-  }
-  .testimonial-carousel .owl-nav button.owl-prev img, 
-  .testimonial-carousel .owl-nav button.owl-next img{
-    max-width:12px;
-    max-height:12px;
-  }
-  .testimonial-carousel .owl-nav button.owl-prev {
-      /* transform: translateX(-20px); */
-      transform: translateX(0px);
-  }
-  .testimonial-carousel .owl-nav button.owl-next {
-      /* transform: translateX(20px); */
-      transform: translateX(0px);
-  }
-  .testimonial-carousel .owl-nav button i{
-      font-size: 12px;
-      color: #000;
-  }
-  /* home testimonial section css ended */
-  /* Case Study Page */
-    .section-title h2{
-      font-size:38px;
-    }
-    .profile-grid{
-      grid-template-columns:1fr;
-    }
-    .filter-box{
-      width:100%;
-    }
-    .profile-image{
-      height:220px;
-    }
-    .profile-content h3{
-      font-size:20px;
-    }
-    .stat-number{
-      font-size:38px;
-    }
-    .page-btn {
-      width: 32px;
-      height: 32px;
-      font-size: 12px;
-    }
-    .pagination{
-      margin-top: 40px;
-    }
-    .pagination-blog{
-      margin-top:0;
-    }
-    /* Case Study Page End */
-    .header.active-header .logoSmall img{
-      max-width:40px;
-    }
   
   .filter-wrapper{
     flex-direction: column;
@@ -1664,49 +1111,6 @@
   .srvc-sctn-btn-mobile{
     display: block;
     margin:0 auto;
-  }
-  /** ABOUT PAGE START **/
-  .mission-wrapper{
-    gap:20px;
-  }
-  .mission-card{
-    min-width:100%;
-    padding:28px 24px;
-  }
-  .mission-card h3{
-    font-size:24px;
-    line-height:30px;
-    margin-bottom:18px;
-  }
-  .card-label{
-      margin-bottom:20px;
-  }
-  .about-growth-left{
-      flex:100%;
-  }
-  .about-growth-right{
-      flex:100%;
-  }
-  .stat-card{
-      width:100%;
-  }
-  .review-card{
-      width:calc(50% - 5px);
-  }
-  .stat-card h2{
-    font-size:32px;
-    line-height:38px;
-  }
-  .stat-card h4 {
-    font-size:18px;
-    line-height:24px;
-  }
-  /** ABOUT PAGE END **/
-  .text-center.action-row-with-knob{
-    display: flex; justify-content: space-between;
-  }
-  .testimonial-slider-wrapper .action-row-with-knob{
-    bottom:17px;
   }
 }
 /* Only For Mobile View Close */
@@ -1746,71 +1150,7 @@
     gap: 20px;
   }
   /* Counter section end  */
-  /* Solutions Designed Start */
-  .solution-icon img {
-    width: 70px;
-    min-width: 70px;
-  }
-  .services-section {
-    padding: 50px 0;
-  }
-  /* .services-section .container {
-    width: 92%;
-  } */
-  .tab-item {
-    min-width: 200px;
-  }
-  .tab-item h3 , .service-pg-tab .tab-title h3{
-    font-size: 20px;
-    margin: 0;
-  }
-  .tab-content img {
-    height: 220px;
-  }
-  .tab-content ul {
-    gap: 10px;
-  }
-  .tab-content ul li {
-    width: 47%;
-    height: 95px;
-  }
-  /* Solutions Designed End */
-  /* Measurable Outcomes start */
-  .industry-section {
-    padding: 50px 0;
-  }
-  .industry-card {
-    height: 35px;
-    gap: 5px;
-  }
-  .industry-card img {
-    height: 17px;
-    width: 17px;
-  }
-  .industry-card span {
-    font-size: 11px;
-  }
-  /* Measurable Outcomes end */
-  .case-image {
-    min-height: 230px;
-  }
-  .case-image img {
-    border-radius: 15px;
-    min-height:250px;
-    max-height:250px;
-  }
-  .stat-item p {
-    font-size: 11px;
-    line-height: normal;
-  }
-  .case-mob {
-    gap: 10px;
-  }
-  .case-study-slider .case-content h3, .case-study-slider.service-page .case-content h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    line-height: normal;
-  }
+
   .desc {
     font-size: 12px;
   }
@@ -1846,20 +1186,6 @@
     top: 9px;
     left: 13px;
   }
-  /* .case-content .btn {
-    padding: 2px 28px 2px 10px;
-    min-height: auto;
-  }
-  .case-content .btn span {
-    font-size: 11px;
-    padding-top: 0;
-  }
-  .case-content .btn:after {
-    width: 22px;
-    height: 22px;
-    background-size: cover;
-    right: 4px;
-  } */
   .case-mob{
     margin-top: -25px;
   }
