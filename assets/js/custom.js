@@ -453,3 +453,42 @@ function suffleCards() {
 
 suffleCards();
 /* suffle card script ended */
+
+
+
+/* vertical growth timeline script start */
+function animateVerticalTimeline() {
+    const $timeline = $('.growth-timeline-vertical');
+    const $items = $('.growth-timeline-vertical-item');
+    if (!$timeline.length) return;
+    const delays = [0, 1000, 2000, 3000, 4000, 5000];
+    $items.each(function (index) {
+        setTimeout(() => {
+            const $dot = $(this).find('.timeline-dot');
+            const progressHeight =
+                $dot.offset().top -
+                $timeline.offset().top +
+                ($dot.outerHeight() / 2);
+            $timeline[0].style.setProperty(
+                '--progress-height',
+                progressHeight + 'px'
+            );
+            $(this).addClass('active');
+
+        }, delays[index] || 0);
+    });
+}
+const verticalTimeline = document.querySelector('.growth-timeline-vertical');
+if (verticalTimeline) {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateVerticalTimeline();
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+    observer.observe(verticalTimeline);
+}
+/* vertical growth timeline script ended */

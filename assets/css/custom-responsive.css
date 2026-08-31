@@ -428,13 +428,13 @@
   }
   .mobile-toggle:after,
   .mobile-toggle:before{
-    content: ''; position: absolute; top: 52%; left: 50%; transform: translate(-50%, -50%); width: 28px; height: 2px; background: #767676; transition: all ease 0.4s;
+    content: ''; position: absolute; top: 52%; left: 50%; transform: translate(-50%, -50%); width: 28px; height: 2px; background: #767676; opacity: 0; transition: all ease 0.4s;
   }
   .mobile-toggle.active:after{
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg); opacity: 1;
   }
   .mobile-toggle.active:before{
-    transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg); opacity: 1;
   }
   .mobile-toggle.active img{
     opacity: 0;
