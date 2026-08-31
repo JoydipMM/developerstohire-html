@@ -362,3 +362,94 @@ jQuery(document).ready(function ($) {
     });
 });
 /* Back To Top Close */
+
+/* header mobile menu script start */
+(()=>{
+    const hdrMobileBurgerButton = document.querySelector('.mobile-toggle');
+    const hdrMobileMenu = document.querySelector('.nav-menu');
+    const htmlTag = document.querySelector('html');
+
+    hdrMobileBurgerButton.addEventListener('click', () => {
+        hdrMobileBurgerButton.classList.toggle('active');
+        hdrMobileMenu.classList.toggle('active');
+        htmlTag.classList.toggle('noscroll');
+    });
+})();
+/* header mobile menu script ended */
+
+
+/* suffle card script start */
+function suffleCards() {
+    const cards = document.querySelectorAll('.desktop-view .slide_card');
+    const dots = document.querySelectorAll('.solution_card_nav_dot_list li');
+    const navRow = document.querySelector('.slide_cardes_nav_row');
+    if (cards.length > 0) {
+        let activeIndex = 0;
+        let autoSlideTimer = null;
+
+        function updateClasses() {
+            cards.forEach(card => card.className = 'slide_card'); // reset all
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            const prevIndex = (activeIndex - 1 + cards.length) % cards.length;
+            const nextIndex = (activeIndex + 1) % cards.length;
+
+            cards[activeIndex].classList.add('active');
+            cards[nextIndex].classList.add('right-bottom');
+            cards[prevIndex].classList.add('right-top');
+            if (dots[activeIndex]) {
+            dots[activeIndex].classList.add('active');
+            }
+        }
+
+        function stopAutoSlideAnimation() {
+            clearInterval(autoSlideTimer);
+            autoSlideTimer = null;
+        }
+
+        function autoSlideAnimation() {
+            stopAutoSlideAnimation();
+            autoSlideTimer = setInterval(() => {
+            activeIndex = (activeIndex + 1) % cards.length;
+            updateClasses();
+            }, 2000);
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            activeIndex = (activeIndex + 1) % cards.length;
+            updateClasses();
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            activeIndex = (activeIndex - 1 + cards.length) % cards.length;
+            updateClasses();
+        });
+
+        cards.forEach((card, i) => {
+            card.addEventListener('click', () => {
+            activeIndex = i;
+            updateClasses();
+            });
+        });
+
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+            activeIndex = i;
+            updateClasses();
+            });
+        });
+
+        if (navRow) {
+            navRow.addEventListener('mouseenter', stopAutoSlideAnimation);
+            navRow.addEventListener('mouseleave', autoSlideAnimation);
+        }
+
+        // init
+        updateClasses();
+        autoSlideAnimation();
+    }
+}
+
+
+suffleCards();
+/* suffle card script ended */
