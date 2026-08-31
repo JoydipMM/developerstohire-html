@@ -26,22 +26,6 @@
   .solution-content h2 {
     font-size: 25px;
   }
-  .tab-item h3{
-    font-size: 30px;
-  }
-  .tab-item p {
-    font-size: 1.3rem;
-  }
-  .tab-item {
-    padding: 10px 0;
-  }
-  .tab-content {
-    height: auto;
-    margin-bottom: 20px;
-  }
-  .tab-content ul{
-    margin: 15px 0;
-  }
   .center-title {
     margin: 0 auto 30px;
   }
@@ -115,15 +99,6 @@
     min-height: 540px;
   }
   /* home outcome delivered section css ended */
-
-  /* home testimonial section css start */
-  .testimonial-item .quote{
-      font-size: 34px;
-  }
-  .testimonial-item .testimonial-content .description{
-      font-size: 16px;
-  }
-  /* home testimonial section css ended */
   .solution-card{
     padding:35px;
   }
@@ -199,68 +174,10 @@
   }
   /* home growth section css ended */
 
-  /* home testimonial section css start */
-  .testimonial-slider-wrapper{
-      padding: 40px 40px 20px 40px;
-  }
-  .testimonial-item .testimonial-content {
-      flex: 0 0 45%;
-      max-width: 45%;
-      row-gap: 18px;
-      padding-left: 30px;
-  }
-  .testimonial-item .quote {
-      font-size: 30px;
-  }
-  .testimonial-item .testimonial-content .description{
-      max-width: 93%;
-      font-size: 16px;
-  }
-  .testimonial-item .testimonial-visuals {
-      flex: 0 0 52%;
-      max-width: 52%;
-  }
-  .testimonial-item .rating-value,
-  .testimonial-item .stars {
-      font-size: 16px;
-      gap: 8px;
-  }
-  .testimonial-item .author-details {
-      gap: 7px;
-  }
-  .testimonial-item .author-img {
-      width: 80px;
-      height: 80px;
-  }
-  .testimonial-item .author-details h3 {
-      font-size: 20px;
-  }
-  .testimonial-item .clutch-logo-wrap > img {
-      height: 35px;
-  }
-  .testimonial-carousel .owl-nav button.owl-prev, .testimonial-carousel .owl-nav button.owl-next {
-      width: 45px;
-      height: 45px;
-  }
-  /* home testimonial section css ended */
   .filter-wrapper{
     max-width:100%;
   }
 
-  /* home service section modification css start */
-  .services-section.home-page .tab-item {
-    padding: 14px 0;
-  }
-  .services-section.home-page .tab-item.active p {
-    padding-right:10px;
-  }
-  .services-section.home-page .right-side {
-    min-height: 655px;
-  }
-  .services-section.home-page .right-side .tab-content ul li {
-    height: 110px; border-radius: 12px;
-  }
-  /* home service section modification css ended */
 }
 /* Large Desktop View Close */
 
@@ -292,11 +209,6 @@
   .home-banner .left { padding-right: 50px;}
   .center-core, .wave {width: 100px;  height: 100px; }
   /* banner end */
-  /* blog start */
-  .blog-row .blog-box .pic img { height: 220px;}
-  .blog-row .blog-box .blog-title { font-size: 20px;}
-  .blog-row .blog-box .blog-tag .item { font-size: 12px;}
-  /* blog end */
   /* form start */
   .form-content { max-width: 100%; margin: 0;}
   .form-content .right { padding: 25px;}
@@ -363,39 +275,6 @@
     min-height: auto;
   }
   /* Built for Every end */
-  /* home testimonial section css start */
-  .testimonial-item .rating-value, .testimonial-item .stars {
-      font-size: 16px;
-  }
-  .testimonial-item .quote {
-      font-size: 30px;
-  }
-  .testimonial-item .testimonial-content{
-    padding-left: 30px;
-  }
-  .testimonial-item .testimonial-content .description {
-      max-width: 95%;
-      font-size: 14px;
-  }
-  .testimonial-item .author-img {
-      width: 70px;
-      height: 70px;
-  }
-  .testimonial-item .author-details h3 {
-      font-size: 20px;
-  }
-  .testimonial-item .author-details p {
-      font-size: 14px;
-  }
-  .testimonial-item .clutch-logo-wrap > img {
-      height: 30px;
-  }
-  /* home testimonial section css ended */
-  /* Case Study Page */
-    .profile-grid{
-      grid-template-columns:repeat(2,1fr);
-    }
-  /* Case Study Page End */
 
   /* home service section modification css start */
   .services-section.home-page .right-side {
@@ -469,32 +348,6 @@
       width: 100%;
   }
   /* home growth section css ended */
-
-  /* testimonial section css start */
-  .testimonial-item .rating-value, .testimonial-item .stars {
-      font-size: 14px;
-  }
-  .testimonial-item .testimonial-content {
-      row-gap: 14px;
-  }
-  .testimonial-item .quote {
-      font-size: 20px;
-  }
-  .testimonial-item .testimonial-content .description {
-      font-size: 12px;
-  }
-  .testimonial-item .author-details h3 {
-      font-size: 16px;
-  }
-  .testimonial-item .author-img {
-      width: 68px;
-      height: 68px;
-  }
-  .testimonial-item .author-details p {
-      font-size: 12px;
-  }
-  /* testimonial section css ended */
-
 
 }
 /* Small Desktop View Close */
@@ -915,174 +768,6 @@
   .right-side {display: none;}
   .progress-wrap {display: none;}
   .sticky-content {position: relative;top: 0;}
-  /* ACCORDION ITEM */
-  .tab-item {
-    width: 100%;
-    opacity: 1;
-    overflow: hidden;
-    background: #fff;
-    padding: 10px 0;
-  }
-  .accordion-content li h4 {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-  }
-  /* HEADING */
-  .tab-title {
-    /* padding: 22px; */
-    cursor: pointer;
-    position: relative;
-  }
-  .tab-title h3 {
-    font-size: 26px;
-    padding-right: 40px;
-  }
-  .tab-item.activete .tab-title h3 {
-    color: var(--orange);
-  }
-  .tab-item.activete {
-    border-bottom: 1px solid #D9D9D9;
-  }
-  .tab-item .tab-title {
-    position: relative;
-  }
-  .tab-item .tab-title:after {
-    position: absolute;
-    content: "";
-    width: 35px;
-    height: 35px;
-    background: url(../icons/arrow-below.svg) 0 0 no-repeat;
-    top: 0px;
-    right: 0;
-  }
-  .tab-item.activete .tab-title:after {
-    background: url(../icons/arrow-below-hover.svg) 0 0 no-repeat;
-  }
-  .tab-item h3 {
-      color: #9F9F9F;
-  }
-  /* CONTENT */
-  .accordion-content {
-    display: none;
-    /* padding: 0 22px 25px; */
-  }
-  .accordion-content p {
-    display: block !important;
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #04043F;
-  }
-  .accordion-content img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 14px;
-    margin-bottom: 20px;
-  }
-  .accordion-content ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-  }
-  .accordion-content ul li {
-    width: calc(50% - 6px);
-    padding: 15px;
-    list-style: none;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .accordion-content ul li img {
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-  .left-side .tabs-wrapper{
-    border:none;
-  }
-  .left-side .tab-item.active{
-    border-bottom: 1px solid var(--light-gray);
-  }
-  .tab-item.active .tab-title:after{
-      transform: rotate(180deg);
-  }
-  /* Solutions Designed End */
-  /* Case study start */
-  .section-top {
-    flex-direction: column;
-  }
-  .case-item {
-    flex-wrap: wrap;
-    height: auto;
-  }
-  .case-image,
-  .case-content {
-    width: 100%;
-  }
-  .case-image {
-    min-height: 550px;
-  }
-  .desc {
-    font-size: 24px;
-  }
-  .stat-item h4 {
-    font-size: 30px;
-  }
-  .stat-item{
-    align-items: center;
-  }
-  /* Case study end */
-  /* Measurable Outcomes start */
-  .industry-section {
-    padding: 80px 0;
-  }
-  .industry-grid {
-    gap: 20px;
-  }
-  .industry-card,
-  .industry-card.wide,
-  .industry-card.extra-wide {
-    width: calc(50% - 10px);
-    min-width: auto;
-  }
-  /* Measurable Outcomes end */
-  .case-item {
-    margin: 0;
-    box-shadow: none;
-  }
-  /* .case-content {
-        padding: 40px 0 0 0;
-    } */
-  .case-item {
-    border-radius: 20px;
-  }
-  .case-mob {
-    display: block;
-    margin-top: 15px;
-    margin-top: -60px;
-  }
-  .lft-content,
-  .stats {
-    flex: none;
-  }
-  .desc {
-    margin-bottom: 0;
-  }
-  .case-study-section .owl-nav {
-    margin-top: 0;
-    position: absolute;
-    top: 25%;
-    width: 100%;
-    justify-content: space-between;
-    padding: 0 25px;
-  }
   .section-top .btn {
     display: none;
   }
@@ -1094,23 +779,10 @@
   .counter-wrapper {
     gap: 40px;
   }
-  .tab-item h3{
-    color: #9F9F9F;
-  }
   .stats{
     /* flex-direction: row; */
     margin-top: 30px;
   }
-  /* home testimonial css start */
-  .testimonial-item .testimonial-content {
-      margin-top: 0px;
-      flex: 0 0 51%;
-      max-width: 51%;
-  }
-  .testimonial-item .testimonial-visuals {
-    max-width: 44%;
-  }
-  /* home testimonial css ended */
   .industry-card span {
     font-size: 18px;
   }
@@ -1123,7 +795,6 @@
     min-height: 340px;
   }
   /* home outcome delivered section css ended */
-
 
   /* home growth section css start */
   .growth-timeline{
@@ -1150,28 +821,6 @@
   .growth-timeline-item .timeline-item-desc {
       max-width: 100%;
   }
-  /*.growth-timeline::before {
-      content: '';
-      position: absolute;
-      top: -6px;
-      left: 12px;
-      right: 0;
-      height: 1px;
-      transform: rotate(90deg);
-      transform-origin: 0 0;
-  }
-  .growth-timeline::after{
-      content: '';
-      position: absolute;
-      top: -6px;
-      left: 12px;
-      right: 0;
-      height: 1px;
-      transform: rotate(90deg);
-      transform-origin: 0 0;
-      transition-delay: 0s;
-      transition: width 1.8s ease-in-out;
-  }*/
   .growth-timeline{
       position: relative;
       --progress-height: 0px;
@@ -1268,23 +917,6 @@
   .left-side .tabs-wrapper::before, .left-side .tabs-wrapper::after{
     display:none;
   }
-  /** ABOUT PAGE START **/
-  .mission-card{
-    min-width:calc(50% - 12px);
-  }
-  .mission-card h3{
-      font-size:30px;
-  }
-  .about-growth-wrapper{
-    gap:50px;
-  }
-  .about-growth-wrapper{
-    flex-direction: column;
-  }
-  .about-growth-right, .about-growth-left{
-    width:100% !important;
-  }
-  /** ABOUT PAGE END **/ 
 }
 /* Tab and Mobile  View Close */
 
