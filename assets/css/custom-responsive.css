@@ -100,7 +100,7 @@
   }
   /* home outcome delivered section css ended */
   .solution-card{
-    padding:35px;
+    padding:30px;
   }
 
 
@@ -306,14 +306,13 @@
   .case-content {
     padding: 40px;
   }
+  .case-study-slider .case-content .btn-group{
+    margin-top:30px;
+  }
   /* Case study end */
   /* Measurable Outcomes start */
-  .industry-card {
-    min-width: 260px;
-  }
-  .industry-card.wide,
-  .industry-card.extra-wide {
-    min-width: 320px;
+  .industry-section .industry-section-inner{
+    padding: 30px;
   }
   .industry-card span {
     font-size: 20px;
@@ -389,6 +388,10 @@
   .career-case-area .profile-content .btn-group .btn-fill, .career-case-area .profile-content .btn-group .btn,
   .career-case-area .profile-content .btn-group .btn-fill span, .career-case-area .profile-content .btn-group .btn span{
     font-size:14px;
+  }
+  .case-study-slider .case-item .tag{
+    right: -30px;
+    top: -30px;
   }
 }
 @media (max-width:1199px){
@@ -504,7 +507,11 @@
     flex-wrap:nowrap;
   }
   .demo-booking{
-    gap:4px;
+    gap:15px;
+    padding-left:50px;
+  }
+  .matrix-text{
+    min-width: 325px;
   }
   .social-icons ul li a img{
     max-width:30px;
@@ -519,10 +526,10 @@
     font-size:34px;
   }
   .footer-wrapper{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .footer-col{
-    min-width:30%;
+    min-width:20%;
   }
   .nav-menu ul li a{
     font-size:14px;
@@ -561,8 +568,10 @@
     font-size: 1.2rem;
   }
   /* home service section modification css ended */
-
-
+  .case-study-slider .case-item .tag{
+    right: -30px;
+    top: -30px;
+  }
   /* home new banner css start */
     .hero-section .home-banner .left {
       width: 48%; padding-right: 5%;
@@ -707,6 +716,8 @@
   }
   .footer-top-inner .demo-booking{
     order:1;
+    padding-left:0;
+    padding-top:15px;
   }
   .demo-booking p{
     font-size:20px;
@@ -730,7 +741,7 @@
     max-width:30px;
   }
   .address-mail .social-icons ul{
-    justify-content: center;
+    justify-content: flex-start;
   }
   .footer-wrapper{
     flex-direction:column;
@@ -821,6 +832,7 @@
   } */
   .address-mail{
     order:2;
+    padding-top:30px;
   }
   .case-study-section{
     min-height: auto;
@@ -930,6 +942,55 @@
   /* home outcome delivered section css start */
   .case-item {
     min-height: 340px;
+  }
+  .case-item {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .case-image,
+  .case-content {
+    width: 100%;
+  }
+
+  .case-image {
+    min-height: 550px;
+  }
+  .case-item {
+    margin: 0;
+    box-shadow: none;
+    margin-right:1px;
+  }
+
+  /* .case-content {
+        padding: 40px 0 0 0;
+    } */
+  .case-item {
+    border-radius: 20px;
+  }
+
+  .case-mob {
+    display: block;
+    margin-top: 15px;
+    margin-top: -60px;
+  }
+
+  .lft-content,
+  .stats {
+    flex: none;
+  }
+
+  .desc {
+    margin-bottom: 0;
+  }
+
+  .case-study-section .owl-nav {
+    margin-top: 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 25px;
   }
   /* home outcome delivered section css ended */
 
@@ -1223,6 +1284,14 @@
     padding-left:50px;
     margin-bottom:20px;
   }
+  .industry-card span {
+    font-size: 14px;
+  }
+  .industry-card{
+    padding: 8px;
+    width: 31%;
+    border-radius: 5px;
+  }
   /* workflow start */
   .workflow {background: url(../images/workflow-bg-mobile.svg) no-repeat top left; background-size: cover;  padding: 30px 25px;}   
   .workflow .left h2 { font-size: 28px; padding-bottom: 20px;}
@@ -1292,6 +1361,48 @@
     display: block;
     margin:0 auto;
   }
+  .faq-question{
+    font-size:18px;
+  }
+  /* Case study start */
+  .case-study-section {
+    padding: 50px 0 50px 0;
+  }
+
+  .case-image {
+    min-height: 400px;
+  }
+
+  .case-content {
+    padding: 30px 15px;
+  }
+
+  .case-content h3 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+
+  .stat-item p {
+    font-size: 15px;
+  }
+
+  .desc {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .stat-item {
+    gap: 10px;
+  }
+  .case-study-section .heading-part {
+    text-align: center;
+  }
+  .text-center.action-row-with-knob {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Case study end */
 }
 /* Only For Mobile View Close */
 
@@ -1339,6 +1450,15 @@
     margin-bottom:12px;
      margin-top:0;
   }
+  .case-image {
+    min-height: 230px;
+  }
+
+  .case-image img {
+    border-radius: 15px;
+    min-height: 250px;
+    max-height: 250px;
+  }
   .case-study-section .owl-nav button {
     width: 32px;
     height: 32px;
@@ -1378,6 +1498,12 @@
   .stat-item p{
     padding-left: 0;
   }
+  .case-study-slider .case-content h3,
+  .case-study-slider.service-page .case-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: normal;
+  }
   /* .case-content .btn::before, .case-content .btn-fill::before {
         top: 9px;
         right: 10px;
@@ -1392,10 +1518,12 @@
   .policy-link ul li a{
     font-size:12px;
   }
-
-
-
-
+  .industry-card span {
+    font-size: 11px;
+  }
+  .industry-section .industry-section-inner{
+    padding: 30px 20px;
+  }
   /* suffle card animation css start */
   .slide_cardes_main_wrap{
       transform: scale(0.6); transform-origin: center 0;
@@ -1413,6 +1541,11 @@
 /* Only For Medium Mobile View Close */
 
 /* Only For Small Mobile View Open */
+@media (max-width:499px) {
+  .industry-card, .industry-card.wide, .industry-card.extra-wide{
+    width:48%;
+  }
+}
 @media (max-width:449px) {
   .white-popup {
     max-width:90%;
@@ -1436,9 +1569,7 @@
   /* home banner suffle card css ended */
 }
 @media (max-width:409px) {
-  .industry-card, .industry-card.wide, .industry-card.extra-wide{
-    width:48%;
-  }
+
   .solution-icon img{
     width: 55px;
     min-width: 55px;
