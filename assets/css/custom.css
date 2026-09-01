@@ -3639,13 +3639,13 @@ form.newsletter-form input[type='email'] {
 }
 
 /* DIFFERENT WIDTH */
-.industry-card.wide {
+/* .industry-card.wide {
     min-width: 370px;
-}
+} */
 
-.industry-card.extra-wide {
+/* .industry-card.extra-wide {
     min-width: 425px;
-}
+} */
 
 /* ICON */
 .industry-card img {
