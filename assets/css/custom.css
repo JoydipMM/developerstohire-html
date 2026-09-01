@@ -1739,6 +1739,7 @@ body .ui-widget {
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 .header.hide {
@@ -2590,7 +2591,7 @@ form.newsletter-form input[type='email'] {
 
 /* ============== Home Banner Start ============== */
 .hero-section {
-    padding-top: 220px;
+    padding-top: 170px;
 }
 
 .hero-section img {
@@ -3595,12 +3596,10 @@ form.newsletter-form input[type='email'] {
 
 /* Measurable Outcomes start */
 .industry-section {
-    /* padding: 50px 0; */
-    padding: 70px 0 0 0;
-    /* background: url(../images/bg.webp) 0 0 no-repeat; */
-    background-size: cover;
+    width:100%;
+    margin:0 auto;
+    max-width:100%
 }
-
 .industry-section .industry-section-inner{
     padding: 30px 70px;
     background-color:#F8F8F8;
@@ -4632,7 +4631,9 @@ PAGINATION
     color:var(--orange);
 }
 .slide_cardes_main_wrap{
-    max-width: 591px; width:100%; position: relative; display: flex; flex-direction: column; align-items: center; margin: -30px auto 0px;
+    max-width: 591px; width:100%; position: relative; display: flex; flex-direction: column; align-items: center;
+    /* margin: -30px auto 0px; */
+    margin: -0 auto 0px;
 }
 .slide_cardes_main_wrap .slide_cardes_wrap{
   width: 100%; position: relative; height: 516px; display: flex; flex-direction: column; align-items: flex-end; row-gap: 20px; justify-content: space-between; perspective: 1000px;
@@ -4743,8 +4744,10 @@ PAGINATION
 
 /* Technology section start */
 .technology-section {
-    padding: 50px 0;
-    background-color: #F9F9F9;
+   width:100%;
+   max-width:100%;
+   margin: 0 auto;
+   background-color: #F9F9F9;
 }
 
 .technology-section .grid-container {
@@ -4972,7 +4975,9 @@ PAGINATION
 
 /* Engagement Model start */
 .engagement-model {
-    padding: 50px 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .engagement-model .center-title {
