@@ -364,15 +364,45 @@ jQuery(document).ready(function ($) {
 /* Back To Top Close */
 
 /* header mobile menu script start */
-(()=>{
+(() => {
     const hdrMobileBurgerButton = document.querySelector('.mobile-toggle');
     const hdrMobileMenu = document.querySelector('.nav-menu');
     const htmlTag = document.querySelector('html');
 
+    // Open / close mobile menu
     hdrMobileBurgerButton.addEventListener('click', () => {
         hdrMobileBurgerButton.classList.toggle('active');
         hdrMobileMenu.classList.toggle('active');
         htmlTag.classList.toggle('noscroll');
+    });
+
+    // Close menu when clicking a menu link
+    const menuLinks = hdrMobileMenu.querySelectorAll('a[href^="#"]');
+
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            const targetId = this.getAttribute('href');
+
+            // Ignore empty "#"
+            if (!targetId || targetId === '#') return;
+
+            const targetSection = document.querySelector(targetId);
+
+            if (targetSection) {
+                e.preventDefault();
+
+                // Close mobile menu
+                hdrMobileBurgerButton.classList.remove('active');
+                hdrMobileMenu.classList.remove('active');
+                htmlTag.classList.remove('noscroll');
+
+                // Smooth scroll to section
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
     });
 })();
 /* header mobile menu script ended */

@@ -180,6 +180,30 @@
 
   /* home banner new css ended */
 
+  /* home growth section css start */
+  .simple-step-col.right-col {
+    width: 55%;
+  }
+  .simple-step-hdng{
+    font-size:30px;
+  }
+  .dev-shell-list {
+    gap: 12px;
+  }
+  .more-than-dev-right-col {
+    padding: 50px 60px;
+  }
+  .more-than-dev-shell .simple-step-hdng {
+    margin-bottom: 25px;
+  }
+  .dev-shell-list li{
+    font-size: 18px; padding: 2px 0px;
+  }
+  .dev-shell-list li:before {
+    width: 25px; height: 25px;
+  }
+  /* home growth section css ended */
+
 
 
 }
@@ -293,6 +317,15 @@
   .filter-wrapper {
     max-width: 100%;
   }
+
+  /* home growth vertical section css start */
+  .growth-timeline-item .timeline-item-title{
+    margin-top:0px;
+  }
+  .simple-step-hdng{
+    font-size:30px;
+  }
+  /* home growth vertical section css ended */
 
 }
 
@@ -606,7 +639,12 @@
   .growth-timeline-item .timeline-item-desc {
     font-size: 16px;
   }
-
+  .simple-step-col.left-col{
+    width:40%;
+  }
+  .simple-step-col.right-col{
+    width:60%;
+  }
   /* home growth section css ended */
 }
 
@@ -761,7 +799,24 @@
     max-width: 83%;
     width: 100%;
   }
-
+  .simple-step-hdng {
+    font-size: 26px;
+  }
+  .dev-shell-list {
+    gap: 5px;
+  }
+  .dev-shell-list li {
+    font-size: 16px;
+  }
+  .dev-shell-list li:before {
+    width: 20px; height: 20px; font-size: 10px;
+  }
+  .more-than-dev-left-col {
+    padding: 0px 60px 0px 40px;
+  }
+  .more-than-dev-right-col {
+    padding: 35px 60px 35px 0px;
+  }
   /* home growth section css ended */
 
 }
@@ -1597,6 +1652,40 @@
     background: var(--light-gray);
     transform: none;
   }
+  .growth-timeline.vertical{
+    padding-left: 0px; row-gap: 25px;
+  }
+  .growth-timeline.growth-timeline-vertical::after{
+    left: 20px;
+  }
+  .growth-timeline.growth-timeline-vertical::before{
+    left: 20px;
+  }
+  .growth-timeline.vertical .growth-timeline-item .timeline-item-title::before{
+    padding-right: 5px;
+  }
+
+  .simple-step-col.left-col {
+    width: 100%;
+  }
+  .simple-step-row{
+    flex-direction: column; align-items: center; gap: 30px;
+  }
+  .simple-step-col.left-col{
+    text-align: center;
+  }
+  .simple-step-col.left-col .btn-fill{
+    display:none;
+  }
+  .simple-step-col.right-col {
+    width: auto;
+  }
+  .simple-step-col.right-col{
+    display: flex; flex-direction: column; align-items: center; gap: 40px;
+  }
+  .simple-step-col.right-col .btn-fill{
+    display:inline-flex;
+  }
 
   /* Animated progress line */
   .growth-timeline::after {
@@ -1706,8 +1795,8 @@
 
   /* home new banner css start */
   .home-banner {
-    align-items: center;
-    flex-direction: column;
+    align-items: center; flex-direction: column;
+    padding-top:30px;
   }
 
   .hero-section .home-banner .left {
@@ -1916,7 +2005,9 @@
     align-content: flex-start;
     gap: 10px 0;
   }
-
+  .home-banner{
+    padding-top: 10px;
+  }
   /* .demo-booking .btn{
     align-self: flex-end;
   } */
@@ -2194,6 +2285,25 @@
 
 
   /* See the Difference end */
+  .simple-step-hdng{
+    font-size:22px;
+  }
+
+  /* growth vertical progress css start */
+  .more-than-dev-shell{
+    flex-direction: column-reverse; padding: 30px 30px 0px 30px; row-gap: 40px;
+  }
+  .more-than-dev-left-col {
+    padding: 0px; display: flex; justify-content: center;
+  }
+  .more-than-dev-left-col img{
+    max-width: 400px;
+  }
+  .more-than-dev-right-col, .more-than-dev-left-col{
+    width:100%; padding: 0px;
+  }
+  /* growth vertical progress css ended */
+
 }
 
 /* Only For Mobile View Close */
