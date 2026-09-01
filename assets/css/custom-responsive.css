@@ -205,6 +205,16 @@
   /* home growth section css ended */
 
 
+  /* Engagement model section css start */
+  .engagement-model .card-title{
+    font-size: 24px;
+  }
+  .engagement-model .card-subtitle {
+    font-size: 18px; min-height: 44px;
+  }
+  /* Engagement model section css ended */
+
+
 
 }
 
