@@ -52,10 +52,10 @@
     margin: 0 auto 30px;
   }
 
-  .industry-card.wide,
+  /* .industry-card.wide,
   .industry-card.extra-wide {
     min-width: inherit;
-  }
+  } */
 
   .industry-card {
     min-width: inherit;
@@ -442,14 +442,14 @@
 
   /* Case study end */
   /* Measurable Outcomes start */
-  .industry-card {
+  /* .industry-card {
     min-width: 260px;
-  }
+  } */
 
-  .industry-card.wide,
+  /* .industry-card.wide,
   .industry-card.extra-wide {
     min-width: 320px;
-  }
+  } */
   .case-study-slider .case-content .btn-group{
     margin-top:30px;
   }
