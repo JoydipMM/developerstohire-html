@@ -1493,10 +1493,6 @@ form input[type='email']:disabled~label {
     background-color: transparent;
     cursor: not-allowed;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 .form-group-select {
     position: relative;
 }
