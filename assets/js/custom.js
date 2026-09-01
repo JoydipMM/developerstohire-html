@@ -442,7 +442,7 @@ function suffleCards() {
             autoSlideTimer = setInterval(() => {
             activeIndex = (activeIndex + 1) % cards.length;
             updateClasses();
-            }, 2000);
+            }, 4000);
         }
 
         document.getElementById('nextBtn').addEventListener('click', () => {
