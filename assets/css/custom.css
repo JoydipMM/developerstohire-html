@@ -5218,6 +5218,13 @@ PAGINATION
 
 /* Engagement Model end */
 
+#whyUs,
+#HireDevelopers,
+#HiringModels,
+#CaseStudies,
+#faq {
+    scroll-margin-top:80px;
+}
 /* More Than Dev section start */
 
 .more-than-dev-shell {
