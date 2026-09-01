@@ -627,6 +627,9 @@
     right: -30px;
     top: -30px;
   }
+  .solution-content p{
+    font-size: 14px;
+  }
 }
 
 @media (max-width:1199px) {
